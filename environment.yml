@@ -15,10 +15,10 @@ dependencies:
   - pytorch-scatter
   - tqdm
   - pip:
-    - einops
-    - wandb==0.16.4
-    - lpips
-    - torchac
-    - submodules/diff-gaussian-rasterization
-    - submodules/simple-knn
-    - submodules/gridencoder
+      - einops
+      - wandb==0.16.4
+      - lpips
+      - torchac
+      - submodules/diff-gaussian-rasterization
+      - submodules/simple-knn
+    # - submodules/gridencoder
