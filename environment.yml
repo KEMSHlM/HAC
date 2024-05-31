@@ -19,6 +19,6 @@ dependencies:
       - wandb==0.16.4
       - lpips
       - torchac
-      - submodules/diff-gaussian-rasterization
-      - submodules/simple-knn
+    # - submodules/diff-gaussian-rasterization
+    # - submodules/simple-knn
     # - submodules/gridencoder
