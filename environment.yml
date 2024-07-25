@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - numpy=1.25.5
   - plyfile=0.8.1
   - python=3.8.10
   - pip=22.3.1
