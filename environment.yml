@@ -7,13 +7,6 @@ channels:
 dependencies:
   - numpy=1.25.5
   - plyfile=0.8.1
-  - python=3.8.10
-  - pip=22.3.1
-  - pytorch=2.0.0
-  - torchaudio=2.0.0
-  - torchvision=0.15.0
-  - cudatoolkit=11.8
-  - pytorch-scatter
   - tqdm
   - ninja
   - pip:
@@ -23,4 +16,4 @@ dependencies:
       - torchac
       - submodules/diff-gaussian-rasterization
       - submodules/simple-knn
-    # - submodules/gridencoder
+      - submodules/gridencoder
